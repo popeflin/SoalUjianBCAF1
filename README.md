@@ -30,5 +30,5 @@ Dalam mengakses halaman about, pastikan terdapat tombol yang bisa digunakan untu
 Dengan menambahkan elemen View khusus (bisa option menu, tombol, atau tab) yang mengandung ID “about_page”
 
 
-Berikut kerangka tampilan yang bisa Anda gunakan sebagai referensi:
+
 
