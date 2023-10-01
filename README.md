@@ -34,5 +34,6 @@ Dengan menambahkan elemen View khusus (bisa option menu, tombol, atau tab) yang 
 
 contoh tampilan :
 
-<video src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/soal_ujian_bcaf.webm" />
+<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205834.png" />
+<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205902.png" />
 
