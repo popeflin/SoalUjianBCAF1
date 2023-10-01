@@ -24,7 +24,7 @@ Gunakan ScrollView supaya konten tetap dapat dilihat ketika aplikasi dirotasi.
 Halaman About
 Syarat:
 
-Menampilkan foto diri, nama, dan email yang terdaftar di Dicoding.
+Menampilkan foto diri, nama, dan email 
 
 Dalam mengakses halaman about, pastikan terdapat tombol yang bisa digunakan untuk mengakses halamannya. Untuk cara mengaksesnya, kamu bisa mengimplementasikan :
 Dengan menambahkan elemen View khusus (bisa option menu, tombol, atau tab) yang mengandung ID “about_page”
