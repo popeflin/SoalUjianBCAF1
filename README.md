@@ -34,6 +34,6 @@ Dengan menambahkan elemen View khusus (bisa option menu, tombol, atau tab) yang 
 
 contoh tampilan :
 
-<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205834.png" />
-<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205902.png" />
+<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205834.png"  height = 800 width = 480 />
+<img src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/Screenshot_20231001_205902.png" height = 800 width = 480  />
 
