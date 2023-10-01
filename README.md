@@ -33,9 +33,6 @@ Dalam mengakses halaman about, pastikan terdapat tombol yang bisa digunakan untu
 Dengan menambahkan elemen View khusus (bisa option menu, tombol, atau tab) yang mengandung ID “about_page”
 
 contoh tampilan :
-<video src="soal_ujian_bcaf.webm" >
-  Your browser does not support the video tag.
-</video>
 
-
+<video src = "https://github.com/popeflin/SoalUjianBCAF1/blob/main/soal_ujian_bcaf.webm" />
 
