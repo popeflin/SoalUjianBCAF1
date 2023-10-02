@@ -19,11 +19,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar?.setTitle("10 Model Indonesia");
 
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.frmFragment, ListArtisFragment.newInstance("",""))
 
-            .commit()
 
+        val orientation = resources.configuration.orientation
+
+        if(orientation == android.content.res.Configuration.ORIENTATION_LANDSCAPE) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.sideList, ListArtisFragment.newInstance("",""))
+                .commit()
+
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.sideDetail, ListDetailFragment.newInstance(Article(R.drawable.chelsea,"Chelsea Islan","",""),""))
+                .commit()
+        }else{
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.frmFragment, ListArtisFragment.newInstance("",""))
+
+                .commit()
+
+
+        }
 
 
 
