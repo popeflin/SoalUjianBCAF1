@@ -14,11 +14,22 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        //Lengkapi kode disini
+        val article = intent.getParcelableExtra<Article>("ARTICLE")
+
+        if (article != null) {
+            supportActionBar?.title = article.title
+            findViewById<ImageView>(R.id.articleDetailImage).setImageResource(article.imageResourceId)
+            findViewById<TextView>(R.id.articleDetailTitle).text = article.title
+            findViewById<TextView>(R.id.articleDetailOverview).text = article.overview
+            findViewById<TextView>(R.id.articleDetailDescription).text = article.description
+
+        }
 
         val shareButton = findViewById<Button>(R.id.btnShare)
         shareButton.setOnClickListener {
-            //Lengkapi kode disini
+            if (article != null) {
+                shareArticle(article)
+            }
         }
 
     }
@@ -27,7 +38,7 @@ class DetailActivity : AppCompatActivity() {
     private fun shareArticle(article: Article) {
         val shareIntent = Intent().apply {
             action = Intent.ACTION_SEND
-            putExtra(Intent.EXTRA_TEXT, " //Lengkapi kode disini")
+            putExtra(Intent.EXTRA_TEXT, "${article.title}\n${article.description}")
             type = "text/plain"
         }
         startActivity(Intent.createChooser(shareIntent, "Share using"))

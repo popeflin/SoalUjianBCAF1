@@ -47,6 +47,11 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 
+    //Fragement
+    val fragment_version = "1.5.5"
+    implementation("androidx.fragment:fragment-ktx:$fragment_version")
+
+
 
     // Add this line
 
